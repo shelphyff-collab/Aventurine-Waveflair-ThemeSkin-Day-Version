@@ -1,0 +1,585 @@
+body {
+background: transparent !important;
+position: relative;
+}
+
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: -1;
+background-image: url("https://i.postimg.cc/hvRJNSFX/wateraven-day-body.png") !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: center center !important;
+}
+
+#outer.wrapper,
+#main,
+#main.region,
+.region,
+.module,
+.wrapper {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+li.blurb p,
+.module p,
+.module li,
+.module dd,
+#workskin p,
+div.preface.group p,
+div.meta p,
+li.comment p,
+.userstuff p,
+dl.meta dt,
+dl.meta dd,
+div.system.flash,
+li.letter p,
+#main > p {
+color: #2c4a63 !important;
+}
+
+#header {
+background-image: url("https://i.postimg.cc/XvDd1S7F/wateraven-day-head.jpg") !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: center center !important;
+position: relative;
+z-index: 10;
+border: none !important;
+}
+
+#header .primary,
+#header .menu,
+#header .user.navigation {
+background-color: rgba(220, 240, 250, 0.9) !important;
+background-image: none !important;
+box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+border: none !important;
+}
+
+#header .primary a,
+#header .menu a,
+#header .user.navigation a,
+#header .menu.dropdown a {
+color: #113a5d !important;
+}
+
+#header .primary a:hover,
+#header .menu a:hover,
+#header .user.navigation a:hover,
+#header .menu.dropdown a:hover {
+color: #ffb703 !important;
+}
+
+#header .logo,
+#header h1 sup,
+#header h1 a span {
+display: none !important;
+}
+
+#header h1 {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+height: 15em;
+margin: 0;
+width: 100%;
+padding: 0 45% 0 8%;
+box-sizing: border-box;
+}
+
+#header h1 a {
+text-decoration: none;
+}
+
+#header h1 a::before {
+content: "Aventurine \A of Our Own";
+white-space: pre-wrap;
+text-align: left;
+display: inline-block;
+font-size: 45px;
+line-height: 1.1;
+font-family: 'Snell Roundhand', 'Monotype Corsiva', 'Apple Chancery', cursive;
+font-weight: bold;
+background: linear-gradient(to bottom, #ffe866 20%, #fdb927 50%, #4ae5ff 70%, #0093d9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+color: transparent !important;
+filter: drop-shadow(-1px -1px 0 #ffffff)
+drop-shadow(1px -1px 0 #ffffff)
+drop-shadow(-1px 1px 0 #ffffff)
+drop-shadow(1px 1px 0 #ffffff)
+drop-shadow(3px 3px 0 rgba(0, 162, 211, 0.4))
+drop-shadow(4px 4px 0 rgba(0, 162, 211, 0.2));
+}
+
+li.blurb .header,
+li.blurb .heading,
+li.blurb ul.tags,
+li.blurb blockquote,
+li.blurb .userstuff,
+.splash .module .heading,
+.splash .module h3,
+.splash .module ul,
+.splash .module li {
+background: transparent !important;
+background-image: none !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+li.blurb,
+div.system.flash,
+li.letter {
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+background-image: url("https://i.postimg.cc/6pPpD9nJ/wateraven-day-card2.png") !important;
+background-repeat: no-repeat !important;
+background-size: 100% 100% !important;
+background-position: center center !important;
+color: #1c3547 !important;
+margin-bottom: 2em !important;
+padding: 15% 12% !important;
+box-sizing: border-box !important;
+word-wrap: break-word !important;
+overflow-wrap: break-word !important;
+}
+
+.splash .module {
+background-color: rgba(255, 255, 255, 0.6) !important;
+border: 1px solid rgba(255, 255, 255, 0.8) !important;
+border-radius: 8px !important;
+box-shadow: 0 2px 8px rgba(0, 90, 158, 0.05) !important;
+background-image: none !important;
+color: #1c3547 !important;
+margin-bottom: 2em !important;
+padding: 1.5em 2em !important;
+box-sizing: border-box !important;
+}
+
+.works-show div.preface,
+.chapters-show div.preface,
+.works-show .preface.group,
+.chapters-show .preface.group {
+background: transparent !important;
+background-image: none !important;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+padding: 0 !important;
+margin-bottom: 2em !important;
+}
+
+.works-show div.preface .module,
+.works-show div.preface .title,
+.chapters-show div.preface .module,
+.chapters-show div.preface .title {
+background: transparent !important;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+#workskin,
+.works-show div.meta,
+.chapters-show div.meta {
+background-color: rgba(140, 190, 240, 0.4) !important;
+background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png") !important;
+background-repeat: repeat !important;
+background-size: auto !important;
+border: 1px solid rgba(255, 255, 255, 0.5) !important;
+border-radius: 8px !important;
+box-shadow: 0 4px 8px rgba(0, 90, 158, 0.1) !important;
+color: #1c3547 !important;
+margin-bottom: 1.5em;
+padding: 2em 3em !important;
+box-sizing: border-box !important;
+}
+
+#workskin .preface,
+#workskin .meta {
+background: transparent !important;
+background-image: none !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+#dashboard a,
+#dashboard span {
+background-color: rgba(234, 246, 252, 0.6) !important;
+color: #113a5d !important;
+border: 1px solid rgba(0, 162, 211, 0.2);
+border-radius: 4px;
+display: block;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+background-color: rgba(252, 161, 58, 0.9) !important;
+color: #113a5d !important;
+border-color: #fca13a !important;
+}
+
+.module h2,
+.module h3,
+.module h4,
+.module .heading,
+#main > .heading,
+#main > h2,
+#dashboard > .heading,
+#dashboard > h2,
+li.letter h3,
+li.letter .heading,
+.filters legend,
+.filters h3,
+.filters dt {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+color: #113a5d !important;
+text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+margin-bottom: 1em;
+}
+
+li.blurb h4 a:link,
+li.blurb h4 a:visited,
+div.preface.group h2,
+div.preface.group h3,
+div.preface.group .heading,
+div.meta .heading,
+#workskin h2,
+#workskin h3 {
+color: #005a9e !important;
+}
+
+li.blurb h4 a:hover {
+color: #ffb703 !important;
+}
+
+form#work-filters,
+.filters {
+background-color: rgba(255, 255, 255, 0.2) !important;
+background-image: url("https://i.postimg.cc/T3WYnz56/wateravenphone.jpg") !important;
+background-size: cover !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+border: 1px solid rgba(255, 255, 255, 0.3) !important;
+box-shadow: 0 4px 10px rgba(0, 90, 158, 0.15);
+border-radius: 8px;
+padding: 15px !important;
+box-sizing: border-box !important;
+max-width: 100% !important;
+overflow: hidden !important;
+}
+
+.filters fieldset,
+.filters .group,
+.filters dl,
+.filters dd,
+.filters dt {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+}
+
+li.blurb a,
+.module a,
+.splash .module a,
+div.preface.group a,
+div.meta a,
+#workskin a,
+li.comment a,
+dl.meta a,
+.tags.cloud a,
+li.letter a.tag {
+color: #0088cc !important;
+}
+
+li.blurb a:hover,
+.module a:hover,
+.splash .module a:hover,
+div.preface.group a:hover,
+div.meta a:hover,
+#workskin a:hover,
+li.comment a:hover,
+dl.meta a:hover,
+.tags.cloud a:hover,
+li.letter a.tag:hover {
+color: #ffb703 !important;
+text-decoration: underline;
+}
+
+li.blurb .datetime,
+div.meta .datetime,
+.comment .datetime {
+color: #6a8caa !important;
+}
+
+li.warnings .tag,
+li.warnings a.tag,
+.work .warning a.tag {
+color: #f75494 !important;
+font-weight: bold;
+background: transparent !important;
+border: none !important;
+}
+
+.relationships .tag,
+.work .relationships a.tag {
+color: #d147a3 !important;
+background: transparent !important;
+border: none !important;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag,
+.tags a.tag {
+color: #0088cc !important;
+background: transparent !important;
+border: none !important;
+}
+
+#outer .actions a,
+#outer .action,
+#outer input[type="submit"],
+#outer button,
+.pagination a,
+.navigation a,
+.subnav a {
+background-color: rgba(220, 240, 250, 0.65) !important;
+color: #005a9e !important;
+border: 1px solid rgba(140, 190, 240, 0.8) !important;
+border-radius: 4px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+background-image: none !important;
+}
+
+.pagination .current,
+.navigation .current,
+.subnav .current,
+#outer .actions .current {
+background-color: #eaf6fc !important;
+color: #005a9e !important;
+border: 1px solid #005a9e !important;
+font-weight: bold;
+}
+
+#outer .actions a:hover,
+#outer .action:hover,
+#outer input[type="submit"]:hover,
+#outer button:hover,
+.pagination a:hover,
+.navigation a:hover,
+.subnav a:hover {
+background-color: rgba(252, 161, 58, 0.9) !important;
+color: #113a5d !important;
+border-color: #fca13a !important;
+text-decoration: none;
+}
+
+.preface .summary,
+.preface .notes,
+.blurb .summary,
+.blurb .notes {
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+}
+
+.preface blockquote,
+.blurb blockquote {
+border-left: 4px solid #00a2d3 !important;
+background-color: rgba(255, 255, 255, 0.55) !important;
+background-image: none !important;
+box-shadow: 0 2px 4px rgba(0, 162, 211, 0.05) !important;
+border-radius: 6px;
+width: 100% !important;
+max-width: 100% !important;
+margin: 1em 0 !important;
+padding: 1em 1.2em;
+box-sizing: border-box !important;
+display: block;
+border-top: none;
+border-right: none;
+border-bottom: none;
+}
+
+#kudos {
+background-color: rgba(255, 255, 255, 0.85) !important;
+border: 1px solid rgba(0, 162, 211, 0.3) !important;
+box-shadow: 0 4px 12px rgba(0, 90, 158, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+border-radius: 8px;
+padding: 1.5em;
+margin: 2em 0;
+color: #2c4a63 !important;
+}
+
+#kudos p.kudos {
+background-image: url("https://i.postimg.cc/K86jWvWD/wateraven-kudos.png") !important;
+background-size: 100px auto;
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 110px;
+min-height: 35px;
+margin: 0;
+}
+
+#comments,
+#feedback,
+.comments-show,
+.comments-show > .wrapper,
+.thread {
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+background: transparent !important;
+margin-top: 1em !important;
+}
+
+#comments .thread li.comment,
+#comments .thread li.comment.odd,
+#comments .thread li.comment.even {
+background-color: rgba(255, 255, 255, 0.7) !important;
+border: 1px solid rgba(255, 255, 255, 0.9) !important;
+border-radius: 8px !important;
+box-shadow: 0 2px 8px rgba(0, 90, 158, 0.05) !important;
+padding: 1.5em !important;
+margin-bottom: 1em !important;
+color: #1c3547 !important;
+background-image: none !important;
+}
+
+#comments .thread li.comment .wrapper,
+#comments .thread li.comment .header,
+#comments .thread li.comment .heading,
+#comments .thread li.comment .icon,
+#comments .thread li.comment blockquote.userstuff {
+background: transparent !important;
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+padding: 0 !important;
+}
+
+#comments .thread li.comment blockquote.userstuff {
+margin-top: 0.8em !important;
+}
+
+#comments .pagination {
+border: none !important;
+background: transparent !important;
+}
+
+#comments .pagination li {
+border: none !important;
+box-shadow: none !important;
+}
+
+#add_comment {
+background-color: transparent !important;
+background-image: url("https://i.postimg.cc/cJrjKWvF/wateraven-day-comment.png") !important;
+background-size: 100% 100% !important;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+padding: 10% 12% 8% 12% !important;
+box-sizing: border-box !important;
+border: none !important;
+box-shadow: none !important;
+margin-top: 2em !important;
+}
+
+#add_comment > .wrapper,
+#add_comment form,
+#add_comment fieldset,
+#add_comment legend,
+#add_comment .group {
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+background: transparent !important;
+margin: 0 !important;
+padding: 0 !important;
+}
+
+#add_comment .notice,
+#add_comment p.note {
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+margin: 0 auto 10px auto !important;
+}
+
+#add_comment textarea {
+background-color: rgba(255, 255, 255, 0.8) !important;
+border: 1px solid rgba(0, 162, 211, 0.4) !important;
+border-radius: 4px !important;
+}
+
+.flash,
+div.system.flash,
+#main .flash {
+background-color: rgba(220, 240, 250, 0.95) !important;
+border: 1px solid #00a2d3 !important;
+color: #113a5d !important;
+border-radius: 4px;
+}
+
+#outer #footer {
+background-color: transparent !important;
+background-image: url("https://i.postimg.cc/C1vzcjhT/wateraven-day-foot.png") !important;
+background-size: cover !important;
+background-position: center center !important;
+background-repeat: no-repeat !important;
+border: none !important;
+color: #1c3547 !important;
+}
+
+#outer #footer .heading,
+#outer #footer a,
+#outer #footer a:visited,
+#outer #footer .navigation a,
+#outer #footer .actions a,
+#outer #footer .action,
+#outer #footer button,
+#outer #footer input,
+#outer #footer li,
+#outer #footer .module {
+background: transparent !important;
+background-color: transparent !important;
+background-image: none !important;
+border: none !important;
+box-shadow: none !important;
+color: #113a5d !important;
+text-shadow: none !important;
+}
+
+#outer #footer a,
+#outer #footer .actions a {
+font-weight: bold !important;
+}
+
+#outer #footer a:hover,
+#outer #footer .actions a:hover,
+#outer #footer button:hover {
+color: #ffb703 !important;
+text-decoration: underline !important;
+background: transparent !important;
+}
+
+.language select option:not([lang="en"]):not([lang="zh"]),
+#language_id option:not([lang="en"]):not([lang="zh"]) {
+display: none !important;
+}
+
+.language select,
+#language_id {
+max-width: 100% !important;
+}
